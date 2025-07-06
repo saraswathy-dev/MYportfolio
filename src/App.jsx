@@ -3,8 +3,10 @@ import "./App.css";
 import Loading from "./components/Loading.jsx";
 import "./index.css";
 import Navbar from "./components/Navbar.jsx";
+import Mobilemenu from "./components/Mobilemenu.jsx";
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
@@ -15,7 +17,8 @@ const App = () => {
           isLoaded ? "opacity-100" : "opacity-0"
         }bg-black text-gray-100`}
       >
-        <Navbar></Navbar>
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Navbar>
+        <Mobilemenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Mobilemenu>
       </div>
     </>
   );
