@@ -27,7 +27,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               Home{" "}
             </a>
             <a
-              href="#About"
+              href="#about"
               className="text-gray-300 hover:text-white transition-colors"
             >
               {" "}
