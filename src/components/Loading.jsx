@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Loading = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "WELCOME TO THE MY PORTFOLIO";
+  const fullText = "WELCOME TO MY PORTFOLIO";
 
   useEffect(() => {
     let index = 0;
