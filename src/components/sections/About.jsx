@@ -55,7 +55,37 @@ const About = () => {
             </div>
           </div>
           <div>
-            <div></div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+              <div className="p-6 rounded-xl border-white/10 border hover:translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4">🎓Eduaction</h3>
+                <ul className="list-disc list-inside test-gray-300 space-y-2">
+                  <li>
+                    <strong>B.E in Computer Science and Engineering</strong> -
+                    Anna University
+                  </li>
+                  <li>
+                    <strong>M.Tech in Advanced Computing</strong> - SASTRA
+                    University
+                  </li>
+                </ul>
+              </div>
+              <div className="p-6 rounded-xl border-white/10 border hover:translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4">💼Work Experience</h3>
+                <div>
+                  <h4 className="font-semibold">
+                    Software Engineer Intern at UnternehmerTum (March 2025-May
+                    2025)
+                  </h4>
+                </div>
+                <div>
+                  <h4 className="font-semibold">
+                    Assistant Professor at N.S.N college of Enginnering
+                    (December 2012-December 2015)
+                  </h4>
+                </div>
+                <p></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
