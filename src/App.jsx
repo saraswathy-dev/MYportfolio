@@ -7,6 +7,7 @@ import Mobilemenu from "./components/Mobilemenu.jsx";
 import Home from "./components/sections/Home.jsx";
 import About from "./components/sections/About.jsx";
 import Projects from "./components/sections/Projects.jsx";
+import Contact from "./components/sections/Contact.jsx";
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,6 +26,7 @@ const App = () => {
         <Home></Home>
         <About></About>
         <Projects></Projects>
+        <Contact></Contact>
       </div>
     </>
   );

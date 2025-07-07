@@ -42,7 +42,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               Projects{" "}
             </a>
             <a
-              href="#Contact"
+              href="#contact"
               className="text-gray-300 hover:text-white transition-colors"
             >
               {" "}
