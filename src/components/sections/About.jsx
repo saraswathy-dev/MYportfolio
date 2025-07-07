@@ -14,7 +14,7 @@ const About = () => {
     >
       <div className="max-w-3xl mx-auto px-4">
         <h2
-          className="text-3xl font-bold mb-8 bg-gradient from-blue-500 to-cyan-400 
+          className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 
         text-center bg-clip-text text-transparent"
         >
           About me
